@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas API Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Canvas Drawing Tool</h1>
+    <p>By Aiden Selander</p>
+    <p>Draw! Draw! Draw!</p>
+    <p>Click and drag on the white canvas to draw</p>
+    
+    <div class="controls">
+        <label>Color:</label>
+        <input type="color" id="colorPicker"value="#000000">
+        <label>Size:</label>
+        <input type="range" id="brushSize" min="1" max="20"value="5">
+        <button onclick="usePen()">Pen</button>
+        <button onclick="useEraser()">Eraser</button>
+        <button onclick="undo()">Undo</button>
+        <button onclick="clearCanvas()">Clear Canvas</button>
+    </div>
+    <canvas id="canvas"width="600"height="400"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
