@@ -1,0 +1,53 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    text-align:center;
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: rgb(153, 153,212);
+}
+h1 {
+    color:#ffffff;
+}
+p {
+    color: #ffffff;
+    line-height: 2;
+}
+.controls {
+    background-color: #06ee0d;
+    padding:15px;
+    margin:20px auto;
+    border-radius: 5px;
+    max-width: 600px;
+}
+.controls label {
+    margin: 0 10px;
+    font-weight:bold;
+    color: #ffffff;
+}
+.controls input {
+    margin: 0 10px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor:pointer;
+    border:none;
+    margin: 10px;
+    border-radius: 4px;
+
+}
+
+button:hover {
+    background-color: #555;
+}
+canvas {
+    background-color: white;
+    border: 3px solid #333;
+    display: block;
+    margin: 20px auto;
+    cursor: crosshair;
+}
